@@ -110,6 +110,7 @@ function verificar(){
     user.sendEmailVerification().then(function() {
     // Email sent.
     console.log("Enviando correo");
+    alert('Cuenta creada y enviada a su correo');
     }).catch(function(error) {
     // An error happened.
     console.log(error);
